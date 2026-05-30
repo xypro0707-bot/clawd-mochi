@@ -1,0 +1,25 @@
+# Claude Code
+.claude/
+
+# Arduino IDE build output
+build/
+*.elf
+*.bin
+*.map
+*.hex
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
