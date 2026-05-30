@@ -3,17 +3,31 @@
   <img src="pics/clawd_mochi_banner.png" alt="Clawd Mochi Logo" width="700"/>
 </p>
 
-# Clawd Mochi 🦀🤖
+<p align="center">
+  <a href="https://github.com/XYPRO0707-bot/clawd-mochi"><img src="https://img.shields.io/badge/XYPRO0707--bot-FORK-orange?style=for-the-badge&logo=github" alt="Fork by XYPRO0707-bot"></a>
+  <a href="https://makerworld.com/en/models/2559505-clawd-mochi-physical-claude-code-mascot#profileId-2820000"><img src="https://img.shields.io/badge/Original_by-Yousuf_Amanuel-blue?style=for-the-badge" alt="Original by Yousuf Amanuel"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="MIT License"></a>
+</p>
 
-> **Forked from the original [Clawd Mochi](https://makerworld.com/en/models/2559505-clawd-mochi-physical-claude-code-mascot#profileId-2820000) project by [Yousuf Amanuel](https://github.com/YousufAmanuel)** — MIT License
+# 🦀 Clawd Mochi — XYPRO0707-bot's Fork
+
+> ⚠️ This is a **fork** maintained by [@XYPRO0707-bot](https://github.com/XYPRO0707-bot).  
+> **Original project** by [Yousuf Amanuel](https://github.com/YousufAmanuel) — [MakerWorld](https://makerworld.com/en/models/2559505-clawd-mochi-physical-claude-code-mascot#profileId-2820000) · MIT License
 
 A physical desk companion inspired by **Clawd** — the pixel-crab mascot of Claude Code by Anthropic. An ESP32-C3 drives a 1.54" color TFT display and hosts a mobile web controller — no app, no internet, no cloud required.
 
-### 🔧 Enhancements in this fork
+---
 
-- **Auto-rotate expressions** — cycles through all 10 expressions every 60 seconds while idle on clock view
-- **Usage display** — shows Claude Code session token/cost stats on the clock page via MQTT
-- **MQTT hook integration** — connects to Claude Code hooks for real-time expression feedback (thinking/proud/wink/etc.)
+## 🔧 What's different in this fork
+
+| Feature | Original | This Fork |
+|---------|----------|-----------|
+| **Auto-rotate expressions** | ❌ | ✅ Cycles all 10 expressions every 60s on clock idle |
+| **Usage stats on device** | ❌ | ✅ Token/cost display on clock page via MQTT |
+| **Claude Code hook pipeline** | ❌ | ✅ Real-time expression feedback (thinking/proud/wink etc.) |
+| **MQTT usage topic** | ❌ | ✅ `clawd/{device}/usage` endpoint for live stats |
+
+**Cost: ~$6–8 · Build time: ~1 hour · Skill level: Beginner**
 
 **Cost: ~$6–8 · Build time: ~1 hour · Skill level: Beginner**
 
